@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 0)
-    (tracks 0)
+    (tracks 3)
     (zones 0)
     (modules 2)
     (nets 166)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.2)
     (user_trace_width 0.2)
     (user_trace_width 0.85)
     (trace_clearance 0.2)
@@ -1093,5 +1093,9 @@
     (pad "" np_thru_hole circle (at 33.4 0) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -33.4 0) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask))
   )
+
+  (segment (start 149.55296 121.85112) (end 151.0802 120.32388) (width 0.2) (layer F.Cu) (net 96))
+  (segment (start 151.0802 120.32388) (end 151.0802 119.24582) (width 0.2) (layer F.Cu) (net 96))
+  (segment (start 149.55296 128.1104) (end 149.55296 121.85112) (width 0.2) (layer F.Cu) (net 96))
 
 )

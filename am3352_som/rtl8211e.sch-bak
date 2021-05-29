@@ -70,4 +70,14 @@ Text GLabel 6200 3800 2    50   Input ~ 0
 MII1_RXD3
 Text GLabel 5550 4950 3    50   Input ~ 0
 MII1_TX_CLK
+Text GLabel 4650 4950 3    50   Input ~ 0
+MII1_TX_EN
+Text GLabel 4750 4950 3    50   Input ~ 0
+MII1_TXD0
+Text GLabel 4950 4950 3    50   Input ~ 0
+MII1_TXD1
+Text GLabel 5050 4950 3    50   Input ~ 0
+MII1_TXD2
+Text GLabel 5150 4950 3    50   Input ~ 0
+MII1_TXD3
 $EndSCHEMATC

@@ -1270,9 +1270,9 @@ Text GLabel 4850 3400 0    50   Input ~ 0
 UART1_RTSn
 Text GLabel 4850 3500 0    50   Input ~ 0
 ECAP0_IN_PWM0_OUT
-Text GLabel 4850 3700 0    50   Input ~ 0
-EXTINTn
 Text GLabel 4850 3800 0    50   Input ~ 0
+EXTINTn
+Text GLabel 4850 3700 0    50   Input ~ 0
 I2C0_SDA
 Text GLabel 4850 4000 0    50   Input ~ 0
 SPI0_D0
@@ -1351,7 +1351,7 @@ LCD_HSYNC
 Text GLabel 3250 2650 2    50   Input ~ 0
 LCD_DATA15
 Text GLabel 3250 2850 2    50   Input ~ 0
-GPMC_CSn0
+LCD_AC_BIAS_EN
 Text GLabel 3250 2950 2    50   Input ~ 0
 GPMC_AD8
 Text GLabel 3250 3150 2    50   Input ~ 0
@@ -1396,15 +1396,15 @@ Text GLabel 6350 1800 2    50   Input ~ 0
 MII1_RXD1
 Text GLabel 6350 2000 2    50   Input ~ 0
 MII1_TXD2
-Text GLabel 6350 2100 2    50   Input ~ 0
+Text GLabel 6350 2700 2    50   Input ~ 0
 MII1_CRS
 Text GLabel 6350 2300 2    50   Input ~ 0
 MII1_TXD1
-Text GLabel 6350 2400 2    50   Input ~ 0
+Text GLabel 6350 2100 2    50   Input ~ 0
 MII1_TXD0
 Text GLabel 6350 2600 2    50   Input ~ 0
 MII1_COL
-Text GLabel 6350 2700 2    50   Input ~ 0
+Text GLabel 6350 2400 2    50   Input ~ 0
 MII1_RX_ER
 Text GLabel 6350 2900 2    50   Input ~ 0
 MMC0_DAT0

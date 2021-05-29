@@ -20,7 +20,7 @@ F0 "Sheet60AB4D0A" 50
 F1 "som_sodimm.sch" 50
 $EndSheet
 $Sheet
-S 7650 3150 700  1600
+S 7200 2700 700  1600
 U 60ABBC64
 F0 "Sheet60ABBC63" 50
 F1 "rtl8211e.sch" 50
