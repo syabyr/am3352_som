@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -1396,15 +1396,15 @@ Text GLabel 6350 1800 2    50   Input ~ 0
 MII1_RXD1
 Text GLabel 6350 2000 2    50   Input ~ 0
 MII1_TXD2
-Text GLabel 6350 2100 2    50   Input ~ 0
+Text GLabel 6350 2700 2    50   Input ~ 0
 MII1_CRS
 Text GLabel 6350 2300 2    50   Input ~ 0
 MII1_TXD1
-Text GLabel 6350 2400 2    50   Input ~ 0
+Text GLabel 6350 2100 2    50   Input ~ 0
 MII1_TXD0
 Text GLabel 6350 2600 2    50   Input ~ 0
 MII1_COL
-Text GLabel 6350 2700 2    50   Input ~ 0
+Text GLabel 6350 2400 2    50   Input ~ 0
 MII1_RX_ER
 Text GLabel 6350 2900 2    50   Input ~ 0
 MMC0_DAT0

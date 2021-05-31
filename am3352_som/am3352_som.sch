@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -24,5 +24,11 @@ S 7200 2700 700  1600
 U 60ABBC64
 F0 "Sheet60ABBC63" 50
 F1 "rtl8211e.sch" 50
+$EndSheet
+$Sheet
+S 3400 2600 1400 1900
+U 60B42247
+F0 "Sheet60B42246" 50
+F1 "peripheral.sch" 50
 $EndSheet
 $EndSCHEMATC

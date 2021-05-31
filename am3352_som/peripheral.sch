@@ -1,0 +1,155 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Micro_SD_Card J2
+U 1 1 60B42B2A
+P 3450 2150
+F 0 "J2" H 3400 2867 50  0000 C CNN
+F 1 "Micro_SD_Card" H 3400 2776 50  0000 C CNN
+F 2 "mybays_connector:TFCARD" H 4600 2450 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 3450 2150 50  0001 C CNN
+	1    3450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1950 2550 1950
+Wire Wire Line
+	2050 2050 2550 2050
+Wire Wire Line
+	2050 2250 2550 2250
+Wire Wire Line
+	2050 2450 2550 2450
+Wire Wire Line
+	2050 2550 2550 2550
+Text GLabel 2050 1850 0    50   Input ~ 0
+MMC0_DAT2
+Text GLabel 2050 1950 0    50   Input ~ 0
+MMC0_DAT3
+Text GLabel 2050 2050 0    50   Input ~ 0
+MMC0_CMD
+Text GLabel 2050 2250 0    50   Input ~ 0
+MMC0_CLK
+Text GLabel 2050 2450 0    50   Input ~ 0
+MMC0_DAT0
+Text GLabel 2050 2550 0    50   Input ~ 0
+MMC0_DAT1
+Wire Wire Line
+	2050 1850 2550 1850
+$Comp
+L power:GND #PWR0167
+U 1 1 60B46FDD
+P 4250 2850
+F 0 "#PWR0167" H 4250 2600 50  0001 C CNN
+F 1 "GND" H 4255 2677 50  0000 C CNN
+F 2 "" H 4250 2850 50  0001 C CNN
+F 3 "" H 4250 2850 50  0001 C CNN
+	1    4250 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2850 4250 2750
+$Comp
+L power:GND #PWR0168
+U 1 1 60B4614D
+P 2500 2350
+F 0 "#PWR0168" H 2500 2100 50  0001 C CNN
+F 1 "GND" V 2505 2222 50  0000 R CNN
+F 2 "" H 2500 2350 50  0001 C CNN
+F 3 "" H 2500 2350 50  0001 C CNN
+	1    2500 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 2350 2550 2350
+$Comp
+L Connector:USB_A J4
+U 1 1 60B4C18D
+P 2000 5750
+F 0 "J4" H 2057 6217 50  0000 C CNN
+F 1 "USB_A" H 2057 6126 50  0000 C CNN
+F 2 "Connector_USB:USB_A_CONNFLY_DS1095-WNR0" H 2150 5700 50  0001 C CNN
+F 3 " ~" H 2150 5700 50  0001 C CNN
+	1    2000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0169
+U 1 1 60B4F0F9
+P 1900 4650
+F 0 "#PWR0169" H 1900 4400 50  0001 C CNN
+F 1 "GND" H 1905 4477 50  0000 C CNN
+F 2 "" H 1900 4650 50  0001 C CNN
+F 3 "" H 1900 4650 50  0001 C CNN
+	1    1900 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4600 1900 4650
+Wire Wire Line
+	2000 4600 2000 4650
+Wire Wire Line
+	2000 4650 1900 4650
+Connection ~ 1900 4650
+$Comp
+L power:GND #PWR0170
+U 1 1 60B4FBA0
+P 1900 6200
+F 0 "#PWR0170" H 1900 5950 50  0001 C CNN
+F 1 "GND" H 1905 6027 50  0000 C CNN
+F 2 "" H 1900 6200 50  0001 C CNN
+F 3 "" H 1900 6200 50  0001 C CNN
+	1    1900 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6150 1900 6200
+Wire Wire Line
+	2000 6150 2000 6200
+Wire Wire Line
+	2000 6200 1900 6200
+Connection ~ 1900 6200
+Wire Wire Line
+	2350 4400 2300 4400
+Wire Wire Line
+	2350 4300 2300 4300
+Wire Wire Line
+	2350 4200 2300 4200
+Text GLabel 2350 4400 2    50   Input ~ 0
+USB0_ID
+Text GLabel 2350 4300 2    50   Input ~ 0
+USB0_DM
+Text GLabel 2350 4200 2    50   Input ~ 0
+USB0_DP
+Wire Wire Line
+	2350 5750 2300 5750
+Wire Wire Line
+	2350 5850 2300 5850
+Text GLabel 2350 5750 2    50   Input ~ 0
+USB1_DP
+Text GLabel 2350 5850 2    50   Input ~ 0
+USB1_DM
+$Comp
+L mybays_connector:microusb J3
+U 1 1 60B52A08
+P 2000 4200
+F 0 "J3" H 2057 4667 50  0000 C CNN
+F 1 "microusb" H 2057 4576 50  0000 C CNN
+F 2 "mybays_connector:MICRO-USB_MICRO-USB-17" H 2150 4150 50  0001 C CNN
+F 3 "~" H 2150 4150 50  0001 C CNN
+	1    2000 4200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
