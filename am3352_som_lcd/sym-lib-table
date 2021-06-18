@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name am3352_som-rescue)(type Legacy)(uri ${KIPRJMOD}/am3352_som-rescue.lib)(options "")(descr ""))
+)
